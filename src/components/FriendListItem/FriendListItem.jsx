@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './FriendListItem.module.css';
 
 const FriendListItem = ({ avatar, name, isOnline }) => {

@@ -1,16 +1,85 @@
-# React + Vite
+# goit-neo-react-hw-module1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React application created as part of **GoIT Neo React – Module 1 homework**.  
+The application demonstrates component-based architecture, props usage, CSS Modules styling, and rendering data from JSON files.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Vercel:**  
+https://goit-neo-react-hw-module1-iota-brown.vercel.app/
 
-## React Compiler
+🔗 **GitHub Repository:**  
+https://github.com/Dmytro777-lab/goit-neo-react-hw-module1.git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📦 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS Modules
+- JSON data files
+- Prettier
+
+---
+
+## 📂 Project Structure
+
+Each component is located in its own folder and includes:
+
+- JSX component file
+- CSS Module file
+
+---
+
+## 🧩 Implemented Components
+
+### Profile
+
+Displays user profile information:
+
+- Avatar
+- Username
+- Tag
+- Location
+- Statistics
+
+### FriendList
+
+Displays a list of friends with:
+
+- Avatar
+- Name
+- Online / Offline status (styled conditionally)
+
+### TransactionHistory
+
+Displays a table of transactions:
+
+- Type
+- Amount
+- Currency
+
+All data is loaded from separate JSON files.
+
+---
+
+## ✅ Acceptance Criteria Met
+
+- Project created with **Vite**
+- Components rendered inside `<App />`
+- Props passed correctly
+- CSS Modules used for styling
+- Default exports for components
+- No console errors or warnings
+- Clean, formatted code (Prettier)
+
+---
+
+## 🛠️ How to Run Locally
+
+```bash
+npm install
+npm run dev
+```
